@@ -45,7 +45,7 @@ Provides high-level leadership with an instant overview of total ticket volume, 
 Focuses on service level agreement (SLA) compliance, resolution time bottlenecks, and quality assurance metrics.
 
 <p align="center">
-  <img src="SLA%20%26%20Quality%20Analysis.jpg" alt="SLA and Quality Analysis" width="85%"/>
+  <img src="SLA%20&%20Quality%20Analysis.jpg" alt="SLA and Quality Analysis" width="85%"/>
 </p>
 
 * **Core Metrics & Visuals:**
