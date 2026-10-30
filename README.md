@@ -1,34 +1,36 @@
-# 📊 Excel & Power BI Analytics Portfolio
-### **Interactive Business Intelligence • Advanced DAX • Executive Reporting • ETL Pipelines**
+# 📊 Sales & Orders Analytics Dashboard - Power BI & Excel Portfolio
+📌 Project Overview
+This project delivers an enterprise-grade, multi-page business intelligence suite designed to monitor and evaluate commercial performance across orders, products, suppliers, and customers. The goal is to transform raw operational transactions into interactive, executive-ready insights that streamline decision-making, track key performance indicators (KPIs), and uncover operational bottlenecks.
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Power_BI-DAX%20%7C%20Dashboards-yellowgreen?style=for-the-badge&logo=powerbi" />
-  <img src="https://img.shields.io/badge/Excel-Advanced%20%7C%20Pivot%20Tables-green?style=for-the-badge&logo=microsoftexcel" />
-  <img src="https://img.shields.io/badge/Data_Modeling-Star%20Schema-blue?style=for-the-badge&logo=databricks" />
-</p>
+📂 Dataset Information
+- Scope: Comprehensive commercial transactional data covering customer purchasing habits, product categories, supplier performance, and regional distribution.
+- Core Dimensions & Metrics: Order volume, revenue generation, supplier fulfillment rates, customer demographics, and geographical performance.
+- Deliverable: A 6-page interactive dashboard suite equipped with advanced drill-through navigation and root-cause analysis tools.
 
----
+🛠️ Tech Stack & Workflow
+- Business Intelligence: Power BI Desktop & Power Service (Interactive Dashboards, Drill-Through, Decomposition Trees).
+- Advanced Analytics & DAX: Custom measure formulation for time intelligence, running totals, Year-over-Year growth, and profit margins.
+- Data Transformation & ETL: Power Query for data cleaning, type correction, normalization, and relational Star Schema modeling.
+- Spreadsheet Modeling: Microsoft Excel (Advanced formulas, Pivot Tables & Charts, data validation, and preliminary data exploration).
+- Visual Mapping: Azure Maps integrated for regional geographic performance tracking.
 
-## 💡 Key Technical Competencies & Skills
+🔍 Key Workflow & Steps
+1. ETL & Data Preparation: Imported multi-source transactional datasets into Power Query, performing rigorous data cleaning, handling missing values, and standardizing data formats.
+2. Data Modeling & Star Schema: Structured relational table relationships to optimize query performance and ensure accurate cross-filtering across visuals.
+3. DAX Formulation & Metrics Design: Authored custom DAX calculations and time intelligence functions to dynamically evaluate sales trends and profitability margins.
+4. Interactive Dashboard Architecture: Designed a 6-page multi-layered report featuring dynamic KPI summary cards, trend lines, geographic mapping, and decomposition trees.
+5. Root-Cause Analysis Setup: Configured drill-through navigation to empower leadership to drill down from high-level summaries into granular operational anomalies.
 
-| Domain | Core Tools & Proficiencies | Practical Application in Projects |
-| :--- | :--- | :--- |
-| **Business Intelligence** | Power BI Desktop, Power BI Service, Interactive Dashboards | Designing user-centric multi-page reports with seamless page navigation and KPI tracking. |
-| **Data Analytics & DAX** | Time Intelligence, Dynamic Measures, Calculated Columns, Decomposition Trees | Authoring robust DAX formulas for Year-over-Year growth, running totals, and granular root-cause analysis. |
-| **Data Preparation & ETL** | Power Query, Data Cleaning, Data Transformation, Unpivoting | Ingesting raw multi-source data, standardizing formats, and structuring efficient relational models (Star Schema). |
-| **Spreadsheet Modeling** | Excel (Advanced Formulas, Pivot Tables & Charts, Data Validation) | Building foundational spreadsheet models, performing what-if analysis, and cross-validating dataset metrics. |
-| **Business Strategy** | KPI Tracking, Trend Analysis, Cross-Functional Reporting | Transforming raw transactional records into executive-ready dashboards that guide strategic decisions. |
+📊 Key Insights & Business Value
+- Executive Visibility: Replaces manual spreadsheet reporting with an automated, single-pane-of-glass interface to track commercial health instantly.
+- Operational Efficiency: Rapidly identifies underperforming regions, product categories, and supplier delays, enabling leadership to take corrective action.
+- Decision Acceleration: Empowers sales directors and regional managers with self-service drill-downs and geographic insights to optimize inventory and marketing strategies.
 
----
-
-## 📈 Featured Project Breakdown
-
-### 📊 **Sales & Orders Analytics Dashboard**
-* **Primary Tools:** Power BI, Advanced DAX, Power Query, Excel, Azure Maps
-
-#### 📌 Overall Project Overview
-An enterprise-grade, 6-page interactive business intelligence suite engineered to monitor commercial performance across orders, products, suppliers, and customers. It aggregates raw transactional data into actionable operational insights.
-
-#### ⚙️ The Process & Methodology
-1. **ETL & Data Transformation:** Imported multi-source transactional datasets using Power Query; performed data cleaning, handled missing values, corrected data types, and normalized tables.
-2. **Data Modeling & DAX Formulation:** Created a structured Star Schema model and authored custom DAX calculations (including Year-over-Year growth, dynamic rankings,
+📁 Repository Structure
+├── Sales_Orders_Dataset.xlsx               # Raw / Staged transactional dataset
+├── Sales_Orders_Analytics_Dashboard.pbix   # Power BI interactive report suite
+├── SQL_Queries/                            # (Optional) Data extraction & backend scripts
+│   └── sales_analysis.sql                  
+├── dashboard_preview_overview.png          # Visual output / dashboard screenshot
+├── regional_map_analysis.png               # Visual output / geographic breakdown
+└── README.md                               # Project Documentation
